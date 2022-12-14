@@ -1,0 +1,6 @@
+km = float(input('Quantos kilometros percorridos: '))
+q = float(input('Custo da Quilometragem: '))
+dia = int(input('Quantos dias de aluguel do carro: '))
+al = float(input('Qual o valor da diária: '))
+custo = (dia*al)+(km*q)
+print('O custo total foi de {:.2f}'.format(custo))

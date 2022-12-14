@@ -1,0 +1,5 @@
+cidade = str(input('Digite o nome de uma cidade:')).strip()
+fatiado = cidade.rsplit()
+priNome = fatiado[0].upper()
+print('O primeiro nome da cidade é {}'.format(priNome))
+print('O primeiro nome da cidade é SANTO?: {}'.format('SANTO' in priNome))
