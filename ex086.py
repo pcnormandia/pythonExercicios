@@ -7,6 +7,6 @@ for c in range(0, 3):
     for i in range(0, 3):
         val[c][i] = int(input(f'Digite um valor para [{c},{i}]: '))
 for c in range(0, 3):
-    for i in range(0,3):
+    for i in range(0, 3):
         print(f'[{val[c][i]:^5}] ', end='')
     print()
