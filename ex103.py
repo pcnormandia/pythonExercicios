@@ -11,6 +11,7 @@ def ficha(nome='<desconhecido>', gols=0):
 print('-'*40)
 n = str(input('Nome do jogador: '))
 g = str(input('Número de gols: '))
+
 # Validação do número de gols
 if g.isnumeric():
     g = int(g)
