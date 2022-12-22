@@ -16,6 +16,7 @@ def maior(*num):
     print(f'{num}. Foram passados {len(num)} valores e o maior valor é: {nmaior}')
     print('-=-'*10)
 
+
 maior(2, 9, 4, 5, 7, 1)
 maior(4, 7, 0)
 maior(1, 2)
