@@ -3,9 +3,9 @@
 # Transfira todas as funções utilizadas nos desafios 107, 108, 109 e 110
 # para o primeiro pacote e mantenha tudo funcionando.
 
-from ex111.utilidadescev import moeda
+from utilidadescev import moeda, dados
 
-preco = float(input('Digite um preço: R$ '))
+preco = dados.leiadinheiro('Digite o preço: R$')
 moeda.resumo(preco, 20, 12)
 
 
